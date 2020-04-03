@@ -10,6 +10,9 @@
     "supportPolicy": ["lts_latest"]
   },
   "packageRules": [{
+    "packageNames": ["@types/node"],
+    "allowedVersions": "~12.16.0"
+  },{
     "updateTypes": ["minor", "patch", "pin"],
     "automerge": true
   }, {
