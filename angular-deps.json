@@ -1,0 +1,9 @@
+{
+  "description": "Angular Dependencies",
+  "packageRules": [{
+    "packagePatterns": [
+      "^@angular"
+    ],
+    "groupName": "ng"
+  }]
+}

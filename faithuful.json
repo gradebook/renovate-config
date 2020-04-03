@@ -1,0 +1,6 @@
+{
+  "description": "We have faith in the tests / dependencies such that automerge is fine",
+  "extends": ["github>gradebook/renovate-config:default"],
+  "automerge": true,
+  "automergeType": "branch"
+}

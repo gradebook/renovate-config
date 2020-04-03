@@ -1,0 +1,28 @@
+{
+  "description": "Base Gradebook Renovate Config",
+  "extends": [
+    ":base",
+    ":labels(⬆ Renovate)",
+    ":maintainLockFilesMonthly",
+    "schedule:monthly"
+  ],
+  "node": {
+    "supportPolicy": ["lts_latest"]
+  },
+  "packageRules": [{
+    "updateTypes": ["minor", "patch", "pin"],
+    "automerge": true
+  }, {
+    "depTypeList": ["devDependencies"],
+    "automerge": true
+  }],
+  "major": {
+    "masterIssueApproval": true
+  },
+  "digest": {
+    "masterIssueApproval": true
+  },
+  "vulnerabilityAlerts": {
+    "extends": ["schedule:daily"]
+  }
+}

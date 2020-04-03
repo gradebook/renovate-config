@@ -1,0 +1,15 @@
+{
+  "description": "Dependencies used for testing",
+  "packageRules": [{
+    "groupName": "test",
+    "packagePatterns": "^karma",
+    "packageNames": [
+      "eslint",
+      "sinon",
+      "xo",
+      "mocha",
+      "chai",
+      "codelyzer"
+    ]
+  }]
+}
