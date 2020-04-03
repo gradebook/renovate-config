@@ -1,0 +1,7 @@
+{
+  "description": "Disallow pinning of dependencies, useful for libraries",
+  "extends": [
+    "github>gradebook/renovate-config:default",
+    ":pinOnlyDevDependencies"
+  ]
+}
