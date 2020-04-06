@@ -27,5 +27,8 @@
   },
   "vulnerabilityAlerts": {
     "extends": ["schedule:daily"]
+  },
+  "lockFileMaintenance": {
+    "enabled": true
   }
 }
